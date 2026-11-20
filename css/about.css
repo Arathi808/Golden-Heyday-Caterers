@@ -1,0 +1,207 @@
+
+.about-hero {
+    background-color: #f2ece2;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-hero h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 62px;
+    line-height: 1.1;
+    font-weight: 500;
+    color: #641e32;
+    margin: 20px 0;
+}
+
+.about-hero h1 em {
+    color: #a88751;
+}
+
+.about-hero p {
+    color: #776a6b;
+    font-size: 14px;
+}
+
+.about-intro {
+    padding: 100px 0;
+}
+
+.about-intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.about-main-image {
+    height: 520px;
+}
+
+.about-main-image img {
+    height: 100%;
+}
+
+.about-intro-content h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: 500;
+    color: #641e32;
+    margin: 20px 0;
+}
+
+.about-intro-content p {
+    color: #776a6b;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.about-philosophy {
+    background-color: #641e32;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.philosophy-content {
+    max-width: 750px;
+}
+
+.philosophy-content h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.15;
+    color: #fbf8f2;
+    margin: 20px 0;
+}
+
+.philosophy-content h2 em {
+    color: #dfc99c;
+}
+
+.philosophy-content p {
+    color: #e6ddd0;
+    font-size: 14px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.about-values {
+    padding: 100px 0;
+    background-color: #fbf8f2;
+}
+
+.about-values-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+    margin-top: 45px;
+}
+
+.about-value {
+    border-top: 1px solid #cdbb9d;
+    padding-top: 25px;
+}
+
+.about-value span {
+    color: #b99a60;
+    font-size: 12px;
+}
+
+.about-value h3 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 28px;
+    color: #641e32;
+    margin: 12px 0;
+}
+
+.about-value p {
+    color: #776a6b;
+    font-size: 14px;
+    max-width: 450px;
+}
+
+.about-image-section {
+    height: 450px;
+}
+
+.about-image-section img {
+    height: 100%;
+}
+
+.about-cta {
+    background-color: #f2ece2;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.about-cta h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 52px;
+    line-height: 1.1;
+    font-weight: 500;
+    color: #641e32;
+    margin: 20px 0;
+}
+
+.about-cta p {
+    color: #776a6b;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+
+
+@media (max-width: 900px) {
+    .about-intro-grid {
+        gap: 35px;
+    }
+
+    .about-main-image {
+        height: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-hero {
+        padding: 70px 0;
+    }
+
+    .about-hero h1 {
+        font-size: 42px;
+    }
+
+    .about-intro {
+        padding: 70px 0;
+    }
+
+    .about-intro-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-main-image {
+        height: 320px;
+    }
+
+    .about-intro-content h2,
+    .philosophy-content h2,
+    .about-cta h2 {
+        font-size: 38px;
+    }
+
+    .about-philosophy,
+    .about-values,
+    .about-cta {
+        padding: 70px 0;
+    }
+
+    .about-values-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .about-image-section {
+        height: 280px;
+    }
+}
